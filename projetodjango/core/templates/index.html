@@ -9,7 +9,6 @@
 <body>
     {%for produto in produtos%}
         <h2><a href="{%url 'produto' produto.id%}">{{produto.nome}}</a></h2>
-        <h3>{{produto.preco}}</h3>
     {%endfor%} 
 </body>
 </html>
