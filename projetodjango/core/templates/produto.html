@@ -4,15 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Produto</title>
 </head>
 <body>
-    {%for produto in produtos%}
-        <h2><a href="{%url 'produto' produto.id%}">{{produto.nome}}</a></h2>
-        <h3>{{produto.preco}}</h3>
-    {%endfor%} 
+    <h1>produto</h1>
+    <h2>preço</h2>
 </body>
 </html>
-
-
-

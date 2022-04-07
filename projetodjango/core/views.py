@@ -10,3 +10,6 @@ def index(request):
         "produtos":produto
     }
     return render(request,'index.html',context)
+
+def produto(request,pk):
+    return render(request,pk,'produto.html')
