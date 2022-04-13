@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 209, 29);
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.produtos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    margin:2em;
+}
